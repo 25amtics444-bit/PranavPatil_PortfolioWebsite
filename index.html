@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pranav Patil | Portfolio</title>
+  <meta name="description" content="Portfolio of Pranav Manoj Patil: skills, projects and contact.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="top">
+    <a class="logo" href="#home" aria-label="Pranav Patil, home">PP<span>.</span></a>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <!-- HOME -->
+    <section id="home" class="home">
+      <div class="home-copy">
+        <p class="kicker">Computer Science Student</p>
+        <h1>Pranav Manoj <em>Patil</em></h1>
+        <p class="tagline">I build simple, fast and friendly web apps.</p>
+        <p class="bio">I'm a B.Tech student who enjoys web development and problem solving. I'm learning by building small projects and sharing the code on GitHub, and I'm looking for an internship where I can keep growing.</p>
+        <div class="cta">
+          <a class="btn solid" href="Pranav_Patil_Resume.pdf" download="Pranav_Patil_Resume.pdf">Download résumé</a>
+          <a class="btn line" href="#projects">View my work</a>
+        </div>
+        <p class="meta">Enrolment No. 202503103510444</p>
+      </div>
+      <figure class="portrait" id="portrait">
+        <img src="photo.jpg" alt="Portrait of Pranav Patil" id="photo" width="340" height="420">
+        <div class="placeholder" aria-hidden="true">PP</div>
+      </figure>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="block">
+      <div class="head"><span class="num">01</span><h2>Skills</h2></div>
+      <div class="two">
+        <div>
+          <h3>Technical</h3>
+          <ul class="meters">
+            <li><span>HTML &amp; CSS</span><div class="track"><i data-w="85"></i></div></li>
+            <li><span>JavaScript</span><div class="track"><i data-w="70"></i></div></li>
+            <li><span>Python</span><div class="track"><i data-w="70"></i></div></li>
+            <li><span>Git &amp; GitHub</span><div class="track"><i data-w="75"></i></div></li>
+            <li><span>SQL</span><div class="track"><i data-w="60"></i></div></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Soft skills</h3>
+          <ul class="chips">
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Problem solving</li>
+            <li>Time management</li>
+            <li>Quick learner</li>
+            <li>Adaptability</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="block tint">
+      <div class="head"><span class="num">02</span><h2>Projects</h2></div>
+      <ol class="plist">
+        <li class="proj">
+          <span class="pn">A</span>
+          <div>
+            <h3>Retail Flow</h3>
+            <p></p>
+            <p class="stack">HTML · CSS · JavaScript</p>
+          </div>
+          <a href="https://github.com/25amtics444-bit/Retail-Flow" target="_blank" rel="noopener">GitHub →</a>
+        </li>
+        <li class="proj">
+          <span class="pn">B</span>
+          <div>
+            <h3>Shop Management System</h3>
+            
+            <p class="stack">JavaScript · Local storage</p>
+          </div>
+          <a href="https://github.com/25amtics444-bit/Shop-Management-System" target="_blank" rel="noopener">GitHub →</a>
+        </li>
+        
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="block">
+      <div class="head"><span class="num">03</span><h2>Contact</h2></div>
+      <div class="two">
+        <form id="cform" novalidate>
+          <label for="n">Name</label>
+          <input id="n" type="text" autocomplete="name">
+          <label for="e">Email</label>
+          <input id="e" type="email" autocomplete="email">
+          <label for="m">Message</label>
+          <textarea id="m" rows="5"></textarea>
+          <p id="msg" class="msg" role="status" aria-live="polite"></p>
+          <button class="btn solid" type="submit">Send message</button>
+        </form>
+        <div>
+          <h3>Or find me here</h3>
+          <ul class="reach">
+            <li><a href="https://github.com/25amtics444-bit" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/pranav-patil-72b937446?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:25amtics444@gmail.com">25amtics444@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="yr">2026</span> Pranav Manoj Patil</p>
+    <p class="soc">
+      <a href="https://github.com/25amtics444-bit" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/pranav-patil-72b937446?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:25amtics444@gmail.com">Email</a>
+    </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
